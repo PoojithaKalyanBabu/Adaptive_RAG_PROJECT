@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adaptive RAG (Gemini)</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Adaptive RAG – Gemini</h1>
+    <textarea id="query" placeholder="Ask your question..."></textarea>
+    <button onclick="askQuestion()">Ask</button>
+    <div id="answer"></div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

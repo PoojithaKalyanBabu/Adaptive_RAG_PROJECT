@@ -1,0 +1,5 @@
+Retrieval Augmented Generation (RAG) combines document retrieval with large language models.
+
+Adaptive RAG changes retrieval depth and prompt style based on query complexity.
+
+Static RAG always uses fixed retrieval settings.
